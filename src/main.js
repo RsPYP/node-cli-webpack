@@ -4,7 +4,7 @@ const { stringify } = require("csv-stringify/sync");
 const progress = require("cli-progress");
 const { Command } = require("commander");
 const winston = require("winston");
-//test
+
 const commandOption = new Command();
 commandOption
   .option(
